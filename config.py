@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("SESSION_NAME", "BQGuKwwAVUtsz-Bgmh5llCp4e5yMTEYRTGPy17gSUwu8I467-SekyWA8Beh479WHn2B4NkzFmvh625BNv8icXZb0qOkvsbhrjhfdz_nInAzCQCSq3vqHgkS4DhcT8sycwNb7G9GdNAqP18DX5Et570OaiA32Lvr9w7WuZu2P2sIuXlfujS19rkT78a3eAJEf7HBFDDAtdvoIQGR5kkQzshLTqU7aq4hkMFVh-1RWvpoz02-6uF2zLrLyRzbiVxDxt-ezJWvbLEyMvXQAk6dJOpVlxfPtKKAlxNFw4gd8Bdj2DzbCfbTPwXpr0bkqRicfX6SHkUDREF-PBIOOvaWcvqP497CKJAAAAAFkpMigAA")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -33,20 +33,20 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "6197299374:AAFoIfkmDpMhqlT-yGTYEVSwpkI0C5L7pKg")
+BOT_NAME = getenv("BOT_NAME", "❝𝐂𝐡𝐞𝐫𝐫𝐲 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭❞")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(getenv("API_ID", "28191500"))
+API_HASH = getenv("API_HASH", "f7ec1f67ca70e86b01205740418317a9")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
-ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "D3AD_B0Y")
+ALIVE_NAME = getenv("ALIVE_NAME", "❝𝐂𝐡𝐞𝐫𝐫𝐲 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭❞")
+BOT_USERNAME = getenv("BOT_USERNAME", "Opmusix_bot")
+OWNER_ID = getenv("OWNER_ID", "5567639956")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "lol")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ISHQ00_I")
+6197299374:AAFoIfkmDpMhqlT-yGTYEVSwpkI0C5L7pKgUPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "YKD_I")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
